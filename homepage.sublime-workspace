@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"font",
+				"font-weight"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
 				"job",
 				"job-name"
 			],
@@ -506,14 +514,6 @@
 			[
 				"h_si",
 				"h_size-1"
-			],
-			[
-				"j",
-				"j"
-			],
-			[
-				"hi",
-				"h_size"
 			]
 		]
 	},
@@ -528,11 +528,13 @@
 			}
 		},
 		{
+			"contents": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Jihoo Brian Park | Resume</title>\n    <link href=\"https://fonts.googleapis.com/css?family=Roboto+Mono:400,700|Ubuntu+Mono\" rel=\"stylesheet\"> \n    <link rel=\"stylesheet\" type=\"text/css\" href=\"_css/style.css\">\n</head>\n<body>\n    <!-- // Intro -->\n    <header>\n        <div class=\"content-wrap\">\n            <img class=\"profile-img col-narrow\" src=\"_image/hypercube.gif\" alt=\"Jihoo Brian Park\">\n            <div class=\"col-wide\">\n                <h1>Jihoo Brian Park</h1>\n                <h2>Programmer + Roboticist</h2>\n                <p>As a Programmer, I Specialize in ~~~ and ~~~. As a Roboticist, I focus on the architecture of robot programming and </p>\n            </div>\n        </div>\n    </header>\n    \n    <main> \n        <!-- // Work Experience -->\n        <section class=\"work\">\n            <div class=\"content-wrap\">\n                <h2>Work Experience</h2>\n\n                <!-- Job Details: copy this whole block to add more jobs -->\n                <h3>Center for Automation Technologies and Systems (CATS)</h3>\n                <div style=\"clear: both;\">\n                    <p class=\"job-name alignleft\">Researcher <span class=\"alignright date\">May. 2016 – Present </span></p>\n                </div>\n                <!-- Add as many paragraphs as you need. -->\n                <ul>\n                    <li>Wind Turbine Assembly: Assemble wind turbine using ABB robot, collaboration with GM.</li>\n                    <li>Jefferson Project: Project leader of the circuitry and programming for autonomous data collecting module.</li>\n                    <li>Baxter Backpack: Designed and built circuitry for combining an industrial robot with a power wheel chair.</li>\n                    <li>Baxter On Wheels: Wrote path planning algorithm using IMU data and path planning algorithm.</li>\n                    <li>Mesh Network: Set mesh network between IMU sensors on Baxter robot to collect data.</li>\n                    <li>Ver - InVer leg: Designed Robot leg that can transform from rigid robot to soft robot.</li>\n                    <li>Satellite Simulation: Simulated satellite movement by using two robotic simulators (Gazebo and Vrep).</li>\n                </ul>\n\n                <h3>Avo Technology</h3>\n                <div style=\"clear: both;\">\n                    <p class=\"job-name alignleft\">Software developer <span  class=\"alignright date\">June. 2014- Sep. 2014 </span></p>\n                </div>\n\n                <!-- Add as many paragraphs as you need. -->\n                <p>Programmed simulation for high school physics experiment on the law of conservation of momentum.</p>\n\n                <!-- end of Job Details block. -->\n            </div>    \n        </section>\n\n\n        <!-- // Education -->\n        <section class=\"education\">\n            <div class=\"content-wrap\">\n                <h2>Education</h2>\n\n                <!-- School details: copy this whole block to add more schools. -->\n                <h3>Rensselaer Polytechnic Institute</h3>\n                <div class=\"alignright date\">2015 – 2019 </div>\n                <p>Dual Major: Computer Science, Computer Systems Engineering</p>\n                \n                <!-- Add as many paragraphs as you need. -->\n                <p>Classes Taken: Data Structure, Computer Architecture, Network & Operating system, RCOS, Circuits, Computer Operations, Embedded Control, Engineering Design, Engineering Probability, Discrete Math</p>\n            </div>\n        </section>\n\n        <!-- // SKILLS -->\n        <section class=\"skills\">\n            <div class=\"content-wrap\">\n                <h2>Skills</h2>\n\n                <!-- School details: copy this whole block to add more schools. -->\n                <h3>Programming Language</h3>\n                <p> C, C++, Python, Matlab, Java, HTML, CSS, Java Script, PHP </p>\n\n                <h3>Libraries & API</h3>\n                <p>Numpy, Scipy, Flask, TensorFlow, OpenCV, GoPro, Kaldi, RF24, Hokuyo, etc.</p>\n\n                <h3>Embedded Controller</h3>\n                <p>Arduino, Intel Edison, Silicon Labs 8051, Raspberry Pi</p>\n\n                <h3>Simulation </h3>\n                <ul>\n                    <li>Robotics: V-rep, Gazebo</li>\n                    <li>Circuit simulation: PSpice, LTSpice, LogicWorks5</li>\n                </ul>\n                <h3>Operating System </h3>\n                <p>Linux(Ubuntu, Debian), Windows, ROS</p>\n\n                <h3>CAD</h3>\n                <p>Siemens NX, SolidWorks</p>\n            </div>\n        </section>\n\n    </main>\n    \n    <!-- // Footer & contact info -->\n    <footer>\n        <div class=\"content-wrap\">\n            <h2>Let's Keep in Touch!</h2>\n            \n            <!-- Social media and contact links. Add or remove any networks. -->\n            <div class=\"contact-info\">\n                <a href=\"mailto:parkj15@rpi.edu\">parkj15@rpi.edu</a>\n                <a href=\"http://JHBP.github.io\" target=\"_blank\">JHBP.github.io</a>\n                <a href=\"#\" target=\"_blank\">LinkedIn</a>\n            </div>\n\n            <p>Copyright 2017 by Jihoo Brian Park</p>\n        </div>\n    </footer>\n</body>\n</html>",
 			"file": "resume.html",
+			"file_size": 5261,
+			"file_write_time": 131452227372435893,
 			"settings":
 			{
-				"buffer_size": 5224,
-				"encoding": "UTF-8",
+				"buffer_size": 5264,
 				"line_ending": "Unix"
 			}
 		},
@@ -540,7 +542,7 @@
 			"file": "_css/style.css",
 			"settings":
 			{
-				"buffer_size": 1444,
+				"buffer_size": 1800,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -588,6 +590,10 @@
 	],
 	"file_history":
 	[
+		"/home/jihoo/Downloads/nRF24L01_6channelsDemo/nRF24L01_RX/nRF24L01.C",
+		"/home/jihoo/Downloads/RF24-master/examples_linux/gettingstarted.cpp",
+		"/home/jihoo/Documents/studying/web div/CSS/Ex_Files_CSS_EssT_1/Exercise Files/Ch04/css-resume-final/css/styles.css",
+		"/home/jihoo/Documents/studying/web div/CSS/Ex_Files_CSS_EssT_1/Exercise Files/Ch04/css-resume-final/index.html",
 		"/home/jihoo/JHBP.github.io/index.html",
 		"/home/jihoo/Documents/resume_markup/_css/style.css",
 		"/home/jihoo/Documents/resume_markup/index.html",
@@ -711,8 +717,7 @@
 		"/home/jihoo/DS/Lab/lab1/fixed/quadratic.cpp",
 		"/home/jihoo/DS/Lab/lab1/quadratic.cpp",
 		"/home/jihoo/DS_testing.cpp/first_name.cpp",
-		"/home/jihoo/DS_testing.cpp/first_name",
-		"/home/jihoo/DS_testing/first_name"
+		"/home/jihoo/DS_testing.cpp/first_name"
 	],
 	"find":
 	{
@@ -875,7 +880,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -891,38 +896,8 @@
 						"selection":
 						[
 							[
-								1926,
-								1926
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "resume.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
+								819,
+								819
 							]
 						],
 						"settings":
@@ -939,20 +914,50 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "_css/style.css",
+					"buffer": 1,
+					"file": "resume.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1444,
+						"buffer_size": 5264,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1444,
-								1444
+								3648,
+								3648
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 270.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "_css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								551
 							]
 						],
 						"settings":
@@ -961,10 +966,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 27.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

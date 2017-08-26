@@ -10,6 +10,13 @@
 
 /* Global styles
 ---------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 body {
 	color: white;
 	background: rgb(15,15,15);
@@ -37,16 +44,34 @@ a:hover{
 .content-wrap{
 	max-width:1150px;
 	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
 }
-.alignleft{
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+/*.alignleft{
 	float: left;
-}
+}*/
 
 .alignright{
 	float: right;
 	font-size: 14px;
 }
 
+.date{
+	font-size: small;
+	font-weight: normal;
+}
 /* Header and Footer
 --------------------------*/
 header, footer{
@@ -55,7 +80,7 @@ header, footer{
 	/* Header
 	--------------------------*/
 	header{
-		text-align: center;
+		/*text-align: center;*/
 	}
 	header h1, header h2{
 		margin:0;
@@ -64,7 +89,7 @@ header, footer{
 	.profile-img{
 		max-width: 300px;
 		height: auto;
-		border-radius: 90%;
+		border-radius: 50%;
 	}
 
 	/* Footer
