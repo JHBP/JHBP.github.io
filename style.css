@@ -1,0 +1,132 @@
+/* Color Palette
+#000000 - Registration Black
+#C0C0C0 - silver
+#45062E - Dark Scarlet
+#7F055F - French Plum
+#893168 - Boysenberry
+#E6A4CB - Pink Pearl
+#FFA500 - Orange
+*/
+
+/* Global styles
+---------------------------*/
+/* border box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	color: white;
+	background: rgb(15,15,15);
+	font-family: 'Roboto Mono', monospace;
+}
+h1,h2{
+	font-family: 'Ubuntu Mono', monospace;
+	font-weight: 400;
+}
+h1{
+	font-size: 80px;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	font-size: 30px
+}
+a{
+	color: #FFA500;
+}
+a:hover{
+	text-decoration:none;
+}
+.content-wrap{
+	max-width:1150px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+}
+}
+.column-narrow {
+  width: 35%;
+  float: left;
+  padding-right: 3%;
+  min-height: 175px;
+}
+.column-wide {
+  width: 62%;
+  float: left;
+  min-height: 175px;
+}
+/*.alignleft{
+	float: left;
+}*/
+
+.alignright{
+	float: right;
+	font-size: 14px;
+}
+
+.date{
+	font-size: small;
+	font-weight: normal;
+}
+/* Header and Footer
+--------------------------*/
+header, footer{
+	background: rgb(35,35,35);
+}
+	/* Header
+	--------------------------*/
+	header{
+		/*text-align: center;*/
+	}
+	header h1, header h2{
+		margin:0;
+	}
+
+	.profile-img{
+		max-width: 300px;
+		height: auto;
+		border-radius: 50%;
+	}
+
+	/* Footer
+	--------------------------*/
+	footer{
+		text-align: center;
+	}
+	.contact-info a{
+		padding: 10px;
+		display: inline-block;
+	}
+
+/* Main
+--------------------------*/
+main h1, main h2{
+	color: lime;
+}
+
+	/* Work Experience
+	--------------------------*/
+	.work h3{
+		text-align: center;
+	}
+
+	.job-name{
+		font-size: 16px;
+		font-weight: 800;
+	}
+	/*.work{
+		background: #45062E;
+		color: #E6A4CB;
+	}
+
+	/* Education
+	--------------------------*/
+	.education h3{
+		/*background: #7F055F;*/
+		text-align: center;
+	}
+	
